@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\POCs\\AzureKeyVault\\AzureKeyVault\\AzureKeyVault.App.csproj": {}
+  },
+  "projects": {
+    "E:\\POCs\\AzureKeyVault\\AzureKeyVault.SecretManager\\AzureKeyVault.SecretManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\POCs\\AzureKeyVault\\AzureKeyVault.SecretManager\\AzureKeyVault.SecretManager.csproj",
+        "projectName": "AzureKeyVault.SecretManager",
+        "projectPath": "E:\\POCs\\AzureKeyVault\\AzureKeyVault.SecretManager\\AzureKeyVault.SecretManager.csproj",
+        "packagesPath": "C:\\Users\\himansh.sachdeva\\.nuget\\packages\\",
+        "outputPath": "E:\\POCs\\AzureKeyVault\\AzureKeyVault.SecretManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\himansh.sachdeva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AWSSDK.SecretsManager": {
+              "target": "Package",
+              "version": "[3.3.100.21, )"
+            },
+            "Microsoft.Azure.KeyVault": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Azure.KeyVault.Core": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.IdentityModel.Clients.ActiveDirectory": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\POCs\\AzureKeyVault\\AzureKeyVault\\AzureKeyVault.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\POCs\\AzureKeyVault\\AzureKeyVault\\AzureKeyVault.App.csproj",
+        "projectName": "AzureKeyVault.App",
+        "projectPath": "E:\\POCs\\AzureKeyVault\\AzureKeyVault\\AzureKeyVault.App.csproj",
+        "packagesPath": "C:\\Users\\himansh.sachdeva\\.nuget\\packages\\",
+        "outputPath": "E:\\POCs\\AzureKeyVault\\AzureKeyVault\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\himansh.sachdeva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\POCs\\AzureKeyVault\\AzureKeyVault.SecretManager\\AzureKeyVault.SecretManager.csproj": {
+                "projectPath": "E:\\POCs\\AzureKeyVault\\AzureKeyVault.SecretManager\\AzureKeyVault.SecretManager.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

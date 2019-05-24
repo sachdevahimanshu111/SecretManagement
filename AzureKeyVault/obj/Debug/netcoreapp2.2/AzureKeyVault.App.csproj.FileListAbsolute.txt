@@ -1,0 +1,14 @@
+E:\POCs\AzureKeyVault\AzureKeyVault\bin\Debug\netcoreapp2.2\AzureKeyVault.App.deps.json
+E:\POCs\AzureKeyVault\AzureKeyVault\bin\Debug\netcoreapp2.2\AzureKeyVault.App.runtimeconfig.json
+E:\POCs\AzureKeyVault\AzureKeyVault\bin\Debug\netcoreapp2.2\AzureKeyVault.App.runtimeconfig.dev.json
+E:\POCs\AzureKeyVault\AzureKeyVault\bin\Debug\netcoreapp2.2\AzureKeyVault.App.dll
+E:\POCs\AzureKeyVault\AzureKeyVault\bin\Debug\netcoreapp2.2\AzureKeyVault.App.pdb
+E:\POCs\AzureKeyVault\AzureKeyVault\obj\Debug\netcoreapp2.2\AzureKeyVault.App.csprojAssemblyReference.cache
+E:\POCs\AzureKeyVault\AzureKeyVault\obj\Debug\netcoreapp2.2\AzureKeyVault.App.csproj.CoreCompileInputs.cache
+E:\POCs\AzureKeyVault\AzureKeyVault\obj\Debug\netcoreapp2.2\AzureKeyVault.App.AssemblyInfoInputs.cache
+E:\POCs\AzureKeyVault\AzureKeyVault\obj\Debug\netcoreapp2.2\AzureKeyVault.App.AssemblyInfo.cs
+E:\POCs\AzureKeyVault\AzureKeyVault\obj\Debug\netcoreapp2.2\AzureKeyVault.App.dll
+E:\POCs\AzureKeyVault\AzureKeyVault\obj\Debug\netcoreapp2.2\AzureKeyVault.App.pdb
+E:\POCs\AzureKeyVault\AzureKeyVault\bin\Debug\netcoreapp2.2\AzureKeyVault.SecretManager.dll
+E:\POCs\AzureKeyVault\AzureKeyVault\bin\Debug\netcoreapp2.2\AzureKeyVault.SecretManager.pdb
+E:\POCs\AzureKeyVault\AzureKeyVault\obj\Debug\netcoreapp2.2\AzureKeyVault.App.csproj.CopyComplete
